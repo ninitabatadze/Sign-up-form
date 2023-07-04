@@ -1,0 +1,60 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: #A7D7C5;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ @font-face {
+     font-family: 'Karla-Regular';
+     src: url(fonts/Karla-Regular.ttf);
+ }
+
+ .rectangle {
+     Width: 455px;
+     Height: 532px;
+     border-radius: 32px;
+     background-color: #F6FBF9;
+ }
+
+ .account {
+     text-align: center;
+     font-family: 'Karla-Regular';
+ }
+
+ .create {
+     color: #32403B;
+     font-family: 'Karla-Regular';
+     text-align: Center;
+ }
+
+ .name {
+     Width: 375px;
+     Height: 55px;
+     border-radius: 10px;
+     border: none;
+     padding-left: 25px;
+ }
+
+ .account1 {
+     width: 255px;
+     height: 59px;
+     border-radius: 15px;
+     border: none;
+     background-color: #84C7AE;
+     color: #FFFFFF;
+     font-family: 'Karla-Regular';
+     font-weight: 700;
+     cursor: pointer;
+ }
+
+ .sign {
+     font-family: 'Karla-Regular';
+     font-size: 14px;
+     text-align: center;
+ }
